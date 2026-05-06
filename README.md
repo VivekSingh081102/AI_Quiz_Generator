@@ -127,7 +127,3 @@ AI--Quiz-main/
 │   └── app.js
 └── README.md
 ```
-
-## License
-
-MIT License
