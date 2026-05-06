@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://ai-quiz-backend-32aa.onrender.com/$1" }
+  ]
+}
