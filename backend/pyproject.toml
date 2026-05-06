@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-quiz-backend"
+version = "0.1.0"
+description = "AI Quiz Generator Backend"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "python-dotenv",
+    "langchain",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-text-splitters",
+    "faiss-cpu",
+    "pymupdf",
+    "python-docx",
+    "python-pptx",
+    "docx2txt"
+]
